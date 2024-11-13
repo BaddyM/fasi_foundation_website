@@ -1,0 +1,10 @@
+@media(max-width:768px){
+    .images-slider img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .logo p {
+        font-size: 30px;
+    }
+}

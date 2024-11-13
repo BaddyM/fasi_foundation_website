@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "roboto";
+    src: url("./Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "caviar";
+    src: url("./CaviarDreams_Bold.ttf");
+}
+
+:root {
+    --primary-color: rgb(2, 216, 2);
+    --secondary-color: rgb(0, 103, 0);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "roboto";
+}
+
+.top_header {
+    background: var(--primary-color);
+    width: 100% !important;
+}
+
+.images-slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.images-slider img {
+    width: 500px;
+    height: 500px;
+}
+
+.tns-outer button {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo p {
+    font-family: "caviar";
+    font-size: 40px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(253, 232, 75),rgb(255, 192, 75),rgb(1, 179, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar{
+    background: var(--secondary-color) !important;
+}
+
+.navbar a{
+    color: white;
+    transition: .4s all ease-in-out;
+}
+
+.navbar a:hover{
+    color: yellow;
+}
