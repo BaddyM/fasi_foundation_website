@@ -9,7 +9,7 @@
             <div><img class="img-fluid" src="{{ asset('assets/images/collage/thrive-ug/IMG_7108.jpeg') }}"></div>
             <div>
             </div>
-            <div class="w-100">
+            <div class="container-fluid d-flex justify-content-center w-100">
                 <div class="row justify-content-between mission_vision text-center">
                     <div class="col-md-6">
                         <p class="mb-3 text-center btn bg-white rounded-0">Mission Statement</p>
@@ -74,7 +74,7 @@
                 healthier practices and long-term social change.
                 </p>
                 @php
-                    $images = ['3.JPG', '4.jpeg', '5.jpeg', '6.jpeg', '8.jpeg', '9.jpeg'];
+                    $images = ['3.JPG', '4.jpeg', '5.jpeg', 'IMG_7147.jpeg', '8.jpeg', '9.jpeg'];
                 @endphp
 
                 <div class="w-100 row my-3 align-items-center d-flex justify-content-start">
@@ -147,7 +147,7 @@
                 Through needs-based trainings and transformative community dialogue, our team of diverse professionals equips community resource persons with the skills and knowledge to drive positive change and serve their communities effectively.
                 </p>
                 @php
-                    $images = ['2.jpg','22.jpg','3.jpg'];
+                    $images = ['14.jpg','22.jpg','3.jpg'];
                 @endphp
 
                 <div class="w-100 row my-3 d-flex justify-content-start food_and_nutrition">

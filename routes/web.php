@@ -1,8 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    Artisan::call("view:clear");
     return view('home');
 })->name("home");
 

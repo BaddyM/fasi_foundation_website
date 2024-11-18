@@ -49,25 +49,24 @@ body {
 .images-slider > div:nth-child(2){
     background: yellow;
     width: 100%;
-    height: 50%;
+    height: 70%;
     z-index: 1;
     position: absolute;
     z-index: 999;
     opacity: 0.1;
-    margin-top: 37%;
+    margin-top: 25%;
 }
 
 .mission_vision{
-    width: 50% !important;
+    width: 80% !important;
 }
 
 .images-slider > div:nth-child(3){
     width: 100% !important;
-    height: 50%;
-    z-index: 1;
+    height: 20%;
     position: absolute;
     z-index: 999;
-    margin-top: 37%;
+    margin-top: 25%;
     display: flex;
     justify-content: center;
     align-items: center;

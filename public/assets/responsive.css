@@ -15,15 +15,46 @@
 
     .mission_vision{
         width: 100% !important;
-        margin-top: 100px;
-    }
-
-    .images-slider{
-        height: 600px !important;
-    }    
+        margin-top: 300px;
+    } 
 
     .images-slider > div > img:first-child {
         width: 100% !important;
-        height:600px;
+    }
+
+    .images-slider > div:nth-child(2){
+        display: none;
+    }
+
+    .images-slider {
+        display: block;
+        height: 100% !important;
+        width: 100%;
+    }
+
+    .images-slider > div:nth-child(3){
+        width: 100% !important;
+        position: relative !important;
+        display: block;
+        margin-top: -290px !important;
+    }
+
+    .mission_vision > div > p:first-child{
+        background: var(--secondary-color) !important;
+        color: white;
+        margin-top: 0 !important;
+    }
+
+    .images-slider > div:first-child img{
+        display: none;
+    }
+
+    .donation_volunteer > div{
+        margin-bottom: 40px;
+    }
+
+    .navbar{
+        position: relative;
+        z-index: 99999999;
     }
 }

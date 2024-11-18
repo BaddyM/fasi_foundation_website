@@ -97,7 +97,7 @@
                 <div class="col-md-2 text-white mb-3">
                     <a class="nav-link mb-2" href="tel:+256709613795"><i class="fa fa-telephone"></i> +256709613795</a>
                     <a class="nav-link mb-2"><i class="fa fa-envelope"></i> info@fasifoundationug.org</a>
-                    <a class="nav-link" href="+256709613795"><i class="bi bi-linkedin"></i> fasifoundation</a>
+                    <a class="nav-link" href="#"><i class="bi bi-linkedin"></i> fasifoundation</a>
                 </div>
                 <div class="col-md-2 text-center">
                     <p class="mb-2 text-white fw-bold text-decoration-underline">Our Partners</p>
