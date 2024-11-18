@@ -10,8 +10,12 @@
         <span class="breadcrumb-item active" aria-current="page">Opportunities</span>
     </nav>
 
-    <div class="images-slider">
-        
+    <div class="container">
+        <div class="alert alert-warning p-2">
+            <p class="mb-0">There aren't any opportunities yet, but as soon as they are available, we shall post them here. <br>
+                Thank you.
+            </p>
+        </div>
     </div>
 @endsection
 
